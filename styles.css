@@ -139,11 +139,25 @@ a:hover {
     opacity: 1;
   }
 
-  .text-container {
-    text-align: justify;
-  }
   
   /* SECTION */
-  #body {
-    text-align: center;
+
+  #body,
+  .background-image {
+    display: inline-block;
   }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .section-btn {
+    padding: 0.5rem 0.8rem;
+    width: 8rem;
+    background-color: white;
+    border: black 0.1rem solid;
+    border-radius: 0.8rem;
+    font-weight:bold;
+    cursor: pointer;
+  }
+  
