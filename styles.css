@@ -18,7 +18,14 @@ p {
     color: rgb(83, 83, 83);
 }
 
-/* DESKTOP NAV*/
+/* DESKTOP NAV */
+
+.left-side-nav {
+  display: flex;
+  gap: 2rem;
+  height: 10vh;
+}
+
 nav,
 .nav-links_1 {
   display: flex;
@@ -26,7 +33,6 @@ nav,
 
 nav {
   justify-content:space-around;
-  align-items: center;
   height: 10vh;
 }
 
@@ -193,6 +199,7 @@ a:hover {
     display: flex;
     margin-left: 8rem;
     gap: 6rem;
+    margin-top: 2rem;
   }
 
   /* IMAGE SECTION */
