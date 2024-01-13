@@ -20,7 +20,7 @@ p {
 
 /* DESKTOP NAV*/
 nav,
-.nav-links {
+.nav-links_1 {
   display: flex;
 }
 
@@ -30,11 +30,18 @@ nav {
   height: 10vh;
 }
 
-.nav-links {
+.nav-links_1 {
   gap: 2rem;
   list-style: none;
   font-size: 1rem;
 }
+
+.nav-links_2 {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1rem;
+    display: flex;
+  }
 
 a {
   color: black;
@@ -58,7 +65,7 @@ a:hover {
   cursor: default;
 }
 
-.btn {
+.nav-btn {
   padding: 0.5rem;
   width: 5rem;
   background-color: white;
@@ -133,31 +140,61 @@ a:hover {
     opacity: 1;
   }
 
-  
   /* SECTION */
 
-  #body,
-  .background-image {
-    display: inline-block;
+  .section-text-container {
+    align-self:center;
+
   }
 
-  .title {
+
+  /* TEXT SECTION */
+
+  .text-header {
+    margin-top: 6rem;
+
+  }
+
+  .title_1 {
     font-size: 3rem;
   }
 
+  .title_2 {
+    font-size: 4.8rem;
+  }
+
+  .section-text {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
   .section-btn {
+    margin-bottom: 5rem;
+  }
+
+  .btn {
+    color: rgb(224, 224, 224);
     padding: 0.5rem 0.8rem;
     width: 8rem;
-    background-color: white;
+    background-color: rgb(45, 44, 44);
     border: black 0.1rem solid;
     border-radius: 0.8rem;
     font-weight:bold;
     cursor: pointer;
   }
-
-  /* FOOTER */
    
-  #footer {
-    gap: 1rem;
+  .footer-container {
+    display: flex;
+    gap: 2rem;
+  } 
+
+
+  .body-container  {
+    display: flex;
+    margin-left: 8rem;
+    gap: 6rem;
   }
+
+  /* IMAGE SECTION */
+
   
