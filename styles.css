@@ -183,14 +183,6 @@ a:hover {
 
   .text-header {
     margin-top: 6rem;
-  }
-
-  .title_1 {
-    
-    font-size: 5rem;
-  }
-
-  .title_2 {
     font-size: 4.8rem;
     font-weight: 700;
   }
@@ -231,10 +223,6 @@ a:hover {
 
   /* IMAGE SECTION */
 
-  .site-image {
-    display: none;
-  }
-
   .desktop-site-image {
     object-fit: cover;
     height: 550px;
@@ -247,3 +235,6 @@ a:hover {
     height: 60px;
   }
   
+  .site-image {
+    display: none;
+  }

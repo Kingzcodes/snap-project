@@ -1,8 +1,9 @@
-@media screen and (max-width:1200px){
-
-    
-} 
-
+@media screen and (max-width: 1400px) {
+  .site-image {
+    display: none;
+  }
+}
+  
 @media screen and (max-width: 1200px) {
     #desktop-nav {
       display: none;
@@ -10,4 +11,18 @@
     #hamburger-nav {
       display: flex;
     }
+    .site-image {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+  .desktop-site-image {
+    display: none;
+  }
+  .site-image {
+    display: block;  
+    width: 375px;
+    height: auto;
+  }
 }
