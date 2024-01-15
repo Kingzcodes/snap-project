@@ -25,4 +25,12 @@
     width: 375px;
     height: auto;
   }
+  .section-btn {
+    display: block;
+    justify-content: center;
+  }
+
+  .footer-container {
+    display: block;
+  }
 }
