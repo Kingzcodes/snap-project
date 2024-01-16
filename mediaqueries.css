@@ -1,28 +1,27 @@
-@media screen and (max-width: 1400px) {
-  .site-image {
-    display: none;
-  }
-}
-  
-@media screen and (max-width: 1200px) {
-    #desktop-nav {
-      display: none;
-    }
-    #hamburger-nav {
-      display: flex;
-    }
-    .site-image {
-      display: none;
-    }
-}
-
-@media screen and (max-width: 375px) {
+ @media screen and (max-width: 768px) {
   .desktop-site-image {
     display: none;
   }
+
+  #desktop-nav {
+    display: none;
+  }
+  .body-container {
+    flex-direction: column-reverse;
+  }
+
+  #hamburger-nav {
+    display: flex;
+  }
+
+  .text-header {
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: 700;
+  }
   .site-image {
     display: block;  
-    width: 375px;
+    width: 100%;
     height: auto;
   }
   .section-btn {
@@ -33,4 +32,8 @@
   .footer-container {
     display: block;
   }
+}
+
+@media screen and (max-width:375px) {
+  
 }
