@@ -41,10 +41,24 @@
     width:375px;
   }
   .text-header{
-    font-size: 1.5rem;
+    font-size: 0.6rem;
+    font: 700;
+    display: flex;
+    gap: 0.1rem;
+    margin-top: 0;
   }
 
+  .section-text {
+    margin-top: 1rem;
+    justify-content: center;
+  }
+
+  .section-btn {
+    margin-top: 0.5rem;
+  }
   .footer-container {
     display: flex;
+    gap: 0.5rem;
   }
+
 }
