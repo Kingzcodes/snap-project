@@ -38,7 +38,8 @@
 
 @media screen and (max-width:375px) {
   .site-image {
-    width:375px;
+    width: 375px;
+    margin-left: 0.1rem;
   }
   .text-header{
     font-size: 0.6rem;
